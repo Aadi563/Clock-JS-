@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --secondsTransform: 0deg;
+    --minutesTransform: 0deg;
+    --hourTransform: 0deg;
+}
+.clock{
+    position: fixed;
+    border-radius: 300px;
+    width: 30vw;
+    height: 30vw;
+    top: 10vw;
+    left: 35vw;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+    font-size: 40px;
+}
+.hourHand{
+    position: fixed;
+    border-radius: 20px;
+    top: 15vw;
+    left: 49.5vw;
+    z-index: 1;
+    margin: auto;
+    width: 10px;
+    height: 10vw;
+    background: #000;
+    transform: rotate(var(--hourTransform));
+    transform-origin: bottom;
+}
+.minuteHand{
+    position: fixed;
+    border-radius: 20px;
+    top: 13vw;
+    left: 49.5vw;
+    z-index: 2;
+    margin: auto;
+    width: 10px;
+    height: 12vw;
+    background: #000;
+    transform: rotate(var(--minutesTransform));
+    transform-origin: bottom;
+}
+.secondsHand{
+    position: fixed;
+    border-radius: 20px;
+    top: 11vw;
+    left: 49.5vw;
+    z-index: 3;
+    margin: auto;
+    width: 10px;
+    height: 14vw;
+    background: #000;
+    transform: rotate(var(--secondsTransform));
+    transform-origin: bottom;
+}
+#one{
+    position: fixed;
+    top: 11.7vw;
+    left: 56.5vw;
+}
+#two {
+	position: fixed;
+	top: 16.5vw;
+	left: 61.5vw;
+}
+#three{
+    position: fixed;
+    top: 23.4vw;
+    left: 63vw;
+}
+#four {
+	position: fixed;
+	top: 30.5vw;
+	left: 61.3vw;
+}
+#five {
+	position: fixed;
+	top: 35.5vw;
+	left: 56vw;
+}
+#six {
+	position: fixed;
+	top: 37vw;
+	left: 49vw;
+}
+#seven {
+	position: fixed;
+	top: 35vw;
+	left: 42.5vw;
+}
+#eight {
+	position: fixed;
+	top: 30.2vw;
+	left: 37.5vw;
+}
+#nine {
+	position: fixed;
+	top: 23.4vw;
+	left: 35.5vw;
+}
+#ten {
+	position: fixed;
+	top: 17vw;
+	left: 37vw;
+}
+#eleven {
+	position: fixed;
+	top: 11.7vw;
+	left: 41.8vw;
+}
+#twelve {
+	position: fixed;
+	top: 10vw;
+	left: 48.5vw;
+}
